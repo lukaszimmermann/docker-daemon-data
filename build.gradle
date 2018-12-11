@@ -8,7 +8,7 @@ plugins {
 }
 
 group 'dockerdaemon'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 repositories {
     jcenter()
@@ -71,7 +71,7 @@ publishing {
 
 model {
     tasks.generatePomFileForMavenPublication {
-        destination = file("$buildDir/libs/data-1.0-SNAPSHOT.pom")
+        destination = file("$buildDir/libs/data-1.0.pom")
     }
 }
 
